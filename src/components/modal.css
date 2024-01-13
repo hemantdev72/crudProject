@@ -1,0 +1,106 @@
+.modal{
+    height: 100vh;
+    width: 100vw;
+}
+
+.modal-wrapper{
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(128, 128, 128, 0.452);
+    z-index: 9;
+}
+
+.modal-box{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    background-color: rgb(231,229,228);
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    z-index: 10;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-input-box{
+    position: relative;
+}
+
+.form-title{
+    width: 100%;
+    height:40px; 
+    position: relative;
+}
+
+.title-label{
+    position: absolute;
+    top:-12px;
+    background-color: white;
+    left:10px;
+}
+
+.desc-label{
+    position: absolute;
+    top:-12px;
+    background-color: white;
+    left:10px;
+}
+.label-user{
+    position: absolute;
+    top:-12px;
+    background-color: white;
+    left:10px;
+}
+
+.form-desc{
+    width: 100%;
+    height:40px; 
+    position: relative;
+}
+
+.form-userid{
+    position: relative;
+    width: 100%;
+    height:40px; 
+}
+
+.modal-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-title{
+    font-size: 22px;
+}
+
+.modal-btn{
+    font-size: 30px;
+}
+
+.form{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-btn{
+    width: 90px;
+    padding:10px 0;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+}
